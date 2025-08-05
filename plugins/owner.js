@@ -30,7 +30,7 @@ async (conn, mek, m, { from }) => {
         // Send the owner contact message with image and audio
         await conn.sendMessage(from, {
             image: { url: 'https://files.catbox.moe/yj7zp0.png' }, // Image URL from your request
-            caption: `╭━━〔 *Arslan-Botz* 〕━━┈⊷
+            caption: `╭━━〔 *Atomic-md* 〕━━┈⊷
 ┃◈╭─────────────·๏
 ┃◈┃• *Here is the owner details*
 ┃◈┃• *Name* - ${ownerName}
@@ -38,7 +38,7 @@ async (conn, mek, m, { from }) => {
 ┃◈┃• *Version*: 2.0.0 Beta
 ┃◈└───────────┈⊷
 ╰──────────────┈⊷
-> *© ᴘᴏᴡᴇʀᴇᴅ ʙʏ 𝐀𝐫𝐬𝐥𝐚𝐧_𝐌𝐃 ❣️*`, // Display the owner's details
+> *© ╭∩╮ᴇʟ(ಠ_ಠ)ᴄɪᴅ╭∩╮ ❣️*`, // Display the owner's details
             contextInfo: {
                 mentionedJid: [`${ownerNumber.replace('+', '')}@s.whatsapp.net`], 
                 forwardingScore: 999,
@@ -53,7 +53,7 @@ async (conn, mek, m, { from }) => {
 
         // Send audio as per your request
         await conn.sendMessage(from, {
-            audio: { url: 'https://files.catbox.moe/4fz6jh.mp3' }, // Audio URL
+            audio: { url: 'https://files.catbox.moe/kvy0jr.mp3' }, // Audio URL
             mimetype: 'audio/mp4',
             ptt: true
         }, { quoted: mek });
