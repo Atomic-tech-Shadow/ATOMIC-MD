@@ -27,14 +27,14 @@ ANTI_LINK: process.env.ANTI_LINK || "true",
 // make anti link true,false for groups 
 MENTION_REPLY: process.env.MENTION_REPLY || "false",
 // make true if want auto voice reply if someone menetion you 
-MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "",
-MENU_VIDEO_URL: process.env.MENU_VIDEO_URL || "https://files.catbox.moe/jrudks.gif",
+MENU_IMAGE_URL: process.env.MENU_IMAGE_URL || "https://files.catbox.moe/a6z3ef.jpg",
+MENU_VIDEO_URL: process.env.MENU_VIDEO_URL || "https://files.catbox.moe/s1kqfx.mp4",
 // add custom menu and mention reply image url
 PREFIX: process.env.PREFIX || "!",
 // add your prifix for bot   
 BOT_NAME: process.env.BOT_NAME || "☢ᴀᴛᴏᴍɪᴄ➳ᴍᴅ",
 // add bot namw here for menu
-STICKER_NAME: process.env.STICKER_NAME || "Arslan Botz",
+STICKER_NAME: process.env.STICKER_NAME || "Atomic Md",
 // type sticker pack name 
 CUSTOM_REACT: process.env.CUSTOM_REACT || "false",
 // make this true for custum emoji react    
@@ -48,7 +48,7 @@ OWNER_NAME: process.env.OWNER_NAME || "*╭∩╮ᴇʟ(ಠ_ಠ)ᴄɪᴅ╭∩╮
 // add bot owner name
 DESCRIPTION: process.env.DESCRIPTION || "*© 𝘚𝘏𝘈𝘋𝘖𝘞 𝘎𝘈𝘙𝘋𝘌𝘕 ❣️*",
 // add bot owner name    
-ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/qpnazl.jpg",
+ALIVE_IMG: process.env.ALIVE_IMG || "https://files.catbox.moe/a6z3ef.jpg",
 // add img for alive msg
 LIVE_MSG: process.env.LIVE_MSG || "> 𝙄 𝘼𝙈 𝘼𝙏𝙊𝙈𝙄𝘾 ⚡",
 // add alive msg here 
@@ -66,11 +66,11 @@ AUTO_STICKER: process.env.AUTO_STICKER || "false",
 // make true for automatic stickers 
 AUTO_REPLY: process.env.AUTO_REPLY || "false",
 // make true or false automatic text reply 
-ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "false",
+ALWAYS_ONLINE: process.env.ALWAYS_ONLINE || "true",
 // maks true for always online 
 PUBLIC_MODE: process.env.PUBLIC_MODE || "true",
 // make false if want private mod
-AUTO_TYPING: process.env.AUTO_TYPING || "false",
+AUTO_TYPING: process.env.AUTO_TYPING || "true",
 // true for automatic show typing   
 READ_CMD: process.env.READ_CMD || "false",
 // true if want mark commands as read 
