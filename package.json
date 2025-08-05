@@ -1,12 +1,12 @@
 {
-  "name": "Arslan-Botz",
+  "name": "Atomic-Md",
   "version": "4.5.0",
-  "description": "A WhatsApp Bot Created By ArslanMD Official",
+  "description": "A WhatsApp Bot Created By el cid",
   "main": "index.js",
   "scripts": {
-    "start": "pm2 start index.js --deep-monitoring --attach --name Arslan-Botz",
-    "stop": "pm2 stop Arslan-Botz",
-    "restart": "pm2 restart Arslan-Botz"
+    "start": "pm2 start index.js --deep-monitoring --attach --name Atomic-Md",
+    "stop": "pm2 stop Atomic-Md",
+    "restart": "pm2 restart Atomic-Md"
   },
   "dependencies": {
     "@whiskeysockets/baileys": "npm:baileys-pro@latest",
